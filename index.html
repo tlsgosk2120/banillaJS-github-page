@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MoMentoM</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" type="text/css" />
+  </head>
+
+  <body>
+    <div class="js-weather weather"></div>
+    <div class="wrap">
+        <div class="center">
+            <div class="js-clock">
+                <h1 class="clock">00:00</h1>
+            </div>
+            <h3 class="js-grettings grettings"></h3>
+            <form class="js-grettings-form form">
+                <input
+                type="text"
+                class="js-grettings-input"
+                placeholder="What is your name?"
+                />
+            </form>
+            <div class="js-toDo toDo">
+                <form class="js-toDo-form">
+                <input
+                    type="text"
+                    class="js-toDo-input text-field"
+                    placeholder="Write a to do"
+                />
+                </form>
+                <h2>· Pending📖</h2>
+                <ul class="js-pending"></ul>
+                <h2>· Finished📕</h2>
+                <ul class="js-finished"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="js-image-description description">
+      <h6>description</h6>
+    </div>
+
+    <script src="src/clock.js"></script>
+    <script src="src/gretting.js"></script>
+    <script src="src/toDo.js"></script>
+    <script src="src/bg.js"></script>
+    <script src="src/weather.js"></script>
+  </body>
+</html>
