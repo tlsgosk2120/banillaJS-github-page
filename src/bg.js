@@ -8,7 +8,7 @@ const IMG_NUMBER = 1;
 
 function paintImage() {
   fetch(
-    // `https://api.unsplash.com/photos/random?client_id=${IMG_API_KEY}&count=${IMG_NUMBER}&w=2400&h=900&dpr=2`
+    `https://api.unsplash.com/photos/random?client_id=${IMG_API_KEY}&count=${IMG_NUMBER}&w=2400&h=900&dpr=2`
   )
     .then(function (response) {
       return response.json();
